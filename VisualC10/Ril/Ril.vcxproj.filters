@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\ril_utils.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_var.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_vm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\crc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\list.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_api.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_compiler.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_tag.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\md5.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hashmap.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\variant.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_state.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_buffer.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ril_calc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\stack.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\buffer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\crc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\list.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_api.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_compiler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_pcheader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_utils.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_var.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_vm.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\md5.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hashmap.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\variant.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_state.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ril_calc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

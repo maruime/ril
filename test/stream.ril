@@ -1,0 +1,28 @@
+- test1 -[r]
+[set $var][stream]
+line1[r]line2[r]
+[endstream]
+[ch $var]
+
+- test2 -[r]
+[stream $var]
+[literal]
+line1[r]
+line2[r]
+[endliteral]
+[endstream]
+[ch $var]
+
+[r]
+
+-test3-[r]
+[set $var][stream toarray:true]
+[literal]
+line1
+line2
+[endliteral]
+[endstream]
+
+[foreach from:$var item:$item]
+[ch $item][r]
+[endforeach]

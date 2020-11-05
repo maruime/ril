@@ -1,0 +1,23 @@
+- test1 -[r]
+
+[literal]
+Hello[r]World
+[endliteral]
+
+[r]
+- test2 -[r]
+
+[literal]
+line 1[r]
+line 2[r]
+line 3[r]
+line 4[r]
+[endliteral]
+
+[r]
+
+- test3 -[r]
+[literal][endliteral]
+
+- test4 -[r]
+[literal]/* comment out */[endliteral]

@@ -1,0 +1,18 @@
+- test1 -[r]
+
+[set $var][file file:"all.ril"]
+
+>>[r]
+[ch $var]
+<<EOF[r]
+
+[r]- test2 -[r]
+
+[set $var][file file:"all.ril" toarray:true]
+
+>>[r]
+[foreach from:$var item:$item]
+[ch $item]
+[endforeach]
+[r]
+<<EOF[r]

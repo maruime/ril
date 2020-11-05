@@ -1,0 +1,20 @@
+[macro name:"test" params:"n"]
+[return $n]
+[endmacro]
+
+- test1 -[r]
+[set $var][test 100]
+100 = [ch $var][r]
+[r]
+
+- test2 -[r]
+[test 200]
+100 = [ch $var][r]
+[r]
+
+- test3 -[r]
+[set $var2]
+[test 300]
+100 = [ch $var][r]
+300 = [ch $var2][r]
+[r]

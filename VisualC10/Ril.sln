@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ril", "Ril\Ril.vcxproj", "{87DF6EAD-1516-41E4-BDAC-311589B0DBDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{B3FA2FA6-8686-458B-9154-EC896D067166}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87DF6EAD-1516-41E4-BDAC-311589B0DBDD} = {87DF6EAD-1516-41E4-BDAC-311589B0DBDD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87DF6EAD-1516-41E4-BDAC-311589B0DBDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87DF6EAD-1516-41E4-BDAC-311589B0DBDD}.Debug|Win32.Build.0 = Debug|Win32
+		{87DF6EAD-1516-41E4-BDAC-311589B0DBDD}.Release|Win32.ActiveCfg = Release|Win32
+		{87DF6EAD-1516-41E4-BDAC-311589B0DBDD}.Release|Win32.Build.0 = Release|Win32
+		{B3FA2FA6-8686-458B-9154-EC896D067166}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3FA2FA6-8686-458B-9154-EC896D067166}.Debug|Win32.Build.0 = Debug|Win32
+		{B3FA2FA6-8686-458B-9154-EC896D067166}.Release|Win32.ActiveCfg = Release|Win32
+		{B3FA2FA6-8686-458B-9154-EC896D067166}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

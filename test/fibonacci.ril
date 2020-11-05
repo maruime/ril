@@ -1,0 +1,13 @@
+This is a script for speed validation.[r]
+
+[macro name:"fibo" params:"n"]
+  [if 1 == $n || 2 == $n][return][endif]
+  [fibo $n-1]
+  [fibo $n-2]
+[endmacro]
+
+[let $i = 30]
+[while $i <= 30]
+  [fibo $i]
+  [let $i++]
+[endwhile]

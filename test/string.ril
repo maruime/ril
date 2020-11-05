@@ -1,0 +1,27 @@
+[macro name:"var_dump" params:"from" vars:"item, key"]
+  [set $count][count $from]
+  [if 0 == $count][ch $from][return][endif]
+
+  {[r]
+  [foreach from:$from item:$item key:$key]
+    "[ch $key]" => [var_dump $item][r]
+  [endforeach]
+  }
+[endmacro]
+
+- test1(strtok) -[r]
+[set $var][strtok src:"a" delimiter:" ,"]
+[var_dump $var]
+
+[r]
+
+[r]- test2(strtok) -[r]
+[set $var][strtok src:"a b c,d,e fg" delimiter:" ,"]
+[var_dump $var]
+
+[r]- test3(strlen) -[r]
+[set $length][strlen ""]
+[ch $length]
+
+[r]- test4 -[r]
+\[\]test

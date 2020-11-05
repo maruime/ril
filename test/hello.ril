@@ -1,0 +1,7 @@
+/*
+[macro name:"init"]
+call the init macro[r]
+[endmacro]
+*/
+
+Hello World[r]

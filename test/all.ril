@@ -1,0 +1,22 @@
+[set $files][stream toarray:true]
+[literal]
+calc.ril
+hello.ril
+literal.ril
+stream.ril
+variable.ril
+loop.ril
+file.ril
+ini.ril
+macro.ril
+string.ril
+[endliteral]
+[endstream]
+
+[foreach from:$files item:$item]
+[r]
+<----------> [ch $item] <---------->[r]
+[r]
+[gosub file:$item]
+[r]
+[endforeach]

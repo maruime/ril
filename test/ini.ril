@@ -1,0 +1,13 @@
+[macro name:"var_dump" params:"from" vars:"item, key"]
+  [set $count][count $from]
+  [if 0 == $count][ch $from][return][endif]
+
+  {[r]
+  [foreach from:$from item:$item key:$key]
+    "[ch $key]" => [var_dump $item][r]
+  [endforeach]
+  }
+[endmacro]
+
+[set $var][ini file:"test.ini"]
+[var_dump $var]
